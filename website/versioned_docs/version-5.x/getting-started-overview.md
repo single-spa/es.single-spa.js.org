@@ -1,33 +1,33 @@
 ---
 id: getting-started-overview
-title: Getting Started with single-spa
+title: Empezando con single-spa
 sidebar_label: Overview of single-spa
 ---
 
 ## JavaScript Microfrontends
 
-[Join the chat on Slack](https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ)
+[Únete al chat en Slack](https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ)
 
-single-spa is a framework for bringing together multiple JavaScript microfrontends in a frontend application. Architecting your frontend using single-spa enables many benefits, such as:
+single-spa es un framework que permite reunir multiples microfrontends de JavaScript en una aplicación frontend. Crear la arquitectura de tu frontend usando single-spa te permite muchos beneficios, como:
 
-- [Use multiple frameworks](ecosystem.md#help-for-frameworks) on the same page [without page refreshing](building-applications.md)
-  ([React](ecosystem-react.md), [AngularJS](ecosystem-angularjs.md), [Angular](ecosystem-angular.md), [Ember](ecosystem-ember.md), or whatever you're using)
-- Deploy your microfrontends independently
-- Write code using a new framework, without rewriting your existing app
-- Lazy load code for improved initial load time
+- [Usar múltiples frameworks](ecosystem.md#help-for-frameworks) en la misma página [sin refrescarla](building-applications.md)
+  ([React](ecosystem-react.md), [AngularJS](ecosystem-angularjs.md), [Angular](ecosystem-angular.md), [Ember](ecosystem-ember.md), o cualquiera que estés usando)
+- Desplegar tus microfrontends independientemente.
+- Escribir código usando un nuevo framework, sin tener que re escribir tu aplicación existente.
+- Cargar el código con Lazy Loading, para mejorar el tiempo de carga inicial.
 
-## Demos and Examples
+## Demostraciones y Ejemplos
 
-See [our examples page](/docs/examples).
+Mira [nuestra página de ejemplos](/docs/examples).
 
-## Architectural Overview
+## Descripción de la Arquitectura
 
-single-spa takes inspiration from modern framework component lifecycles by applying lifecycles to entire applications.
-It was born out of Canopy's desire to use React + react-router instead of being forever stuck with our AngularJS + ui-router application, and now single-spa supports almost any framework. Since JavaScript is notorious for the short life of its many frameworks, we decided to make it easy to use whichever frameworks you want.
+single-spa se inspira en el ciclo de vida de frameworks modernos, aplicando ciclos de vida a aplicaciones completas.
+Nació del deseo de Canopy para utilizar React + react-router en lugar de quedarse atascado por siempre con AngularJS + ui-router, y ahora single-spa soporta casi cualquier framework. Dado que JavaScript es conocido por la corta vida de muchos de sus frameworks, hemos decidido facilitar su uso para cualquier framework que quieras.  
 
-single-spa apps consist of the following:
+Las aplicaciones de single-spa consisten en:
 
-1. [Applications](building-applications.md), each of which is an entire SPA itself (sort of). Each application can respond to url routing events and must know how to bootstrap, mount, and unmount itself from the DOM. The main difference between a traditional SPA and single-spa applications is that they must be able to coexist with other applications, and they do not each have their own HTML page.
+1. [Aplicaciones](building-applications.md), each of which is an entire SPA itself (sort of). Each application can respond to url routing events and must know how to bootstrap, mount, and unmount itself from the DOM. The main difference between a traditional SPA and single-spa applications is that they must be able to coexist with other applications, and they do not each have their own HTML page.
 
     For example, your React or Angular SPAs are applications. When active, they listen to url routing events and put content on the DOM. When inactive, they do not listen to url routing events and are totally removed from the DOM.
 2. A [single-spa-config](configuration), which is the HTML page _and_ the JavaScript that registers applications with single-spa. Each application is registered with three things:
