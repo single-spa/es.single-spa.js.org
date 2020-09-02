@@ -8,7 +8,7 @@ sidebar_label: Overview of single-spa
 
 [Únete al chat en Slack](https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ)
 
-single-spa es un framework que permite reunir multiples microfrontends de JavaScript en una aplicación frontend. Crear la arquitectura de tu frontend usando single-spa te permite muchos beneficios, como:
+single-spa es un framework que permite reunir múltiples microfrontends de JavaScript en una aplicación frontend. Crear la arquitectura de tu frontend usando single-spa te permite muchos beneficios, como:
 
 - [Usar múltiples frameworks](ecosystem.md#help-for-frameworks) en la misma página [sin refrescarla](building-applications.md)
   ([React](ecosystem-react.md), [AngularJS](ecosystem-angularjs.md), [Angular](ecosystem-angular.md), [Ember](ecosystem-ember.md), o cualquiera que estés usando)
@@ -27,7 +27,7 @@ Nació del deseo de Canopy para utilizar React + react-router en lugar de quedar
 
 Las aplicaciones de single-spa consisten en:
 
-1. [Aplicaciones](building-applications.md), cada una de las cuales es un SPA completo en sí. Cada aplicación puede responder a eventos de enrutamiento de una URL y sabe cómo arrancar, montarse y desmontarse así mismo desde el DOM. La principal diferencia entre un SPA tradicional y las aplicaciones single-spa, es que ellas deben ser capaces de coexistir con otras aplicaciones, y no tienen cada una su propia página HTML.
+1. [Aplicaciones](building-applications.md), cada una de las cuales es un SPA completo en sí. Cada aplicación puede responder a eventos de enrutamiento de una URL y sabe cómo arrancar, montarse y desmontarse así mismo desde el DOM. La principal diferencia entre un SPA tradicional y las aplicaciones single-spa es que deben ser capaces de coexistir con otras aplicaciones, y no tienen su propia página HTML.
 
     Por ejemplo, tu SPA de React o Angular son aplicaciones. Cuando se activan, escuchan los eventos de enrutamiento de la URL y colocan el contenido en el DOM. Cuando están inactivos, no escuchan los eventos de enrutamiento de la URL y se eliminan por completo del DOM.
 2. Un [single-spa-config](configuration), el cuál es la página de HTML y Javascript que registra las aplicaciones con single-spa. Cada aplicación es registrada con 3 cosas:
@@ -66,7 +66,7 @@ La documentación está dividida en varias secciones:
 * [Blog](https://single-spa.js.org/blog/)
 * [¿Dónde obtener soporte?](https://single-spa.js.org/help/)
 
-Puedes ayudar a mejorar el sitio web de single-spa enviando pull request al siguiete [repositorio `single-spa.js.org`](https://github.com/single-spa/single-spa.js.org).
+Puedes ayudar a mejorar el sitio web de single-spa enviando un pull request al [repositorio de `single-spa.js.org`](https://github.com/single-spa/single-spa.js.org).
 
 ## Uso Simple
 
@@ -145,7 +145,7 @@ export function unmount(props) {
 
 ## API
 
-Lee más en [API de single-spa](api.md) y [API de aplicación](building-applications.md#application-lifecycle).
+Lee más en el [API de single-spa](api.md) y el [API de aplicaciones](building-applications.md#application-lifecycle).
 
 ## Contributing
 
