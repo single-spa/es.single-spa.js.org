@@ -6,7 +6,7 @@ const versions = require('./versions.json');
 
 module.exports = {
   title: 'single-spa',
-  tagline: 'A javascript router for front-end microservices',
+  tagline: 'Un router de JavaScript para microservicios front-end',
   url: 'https://single-spa.github.io/es.single-spa.js.org',
   baseUrl: '/',
   projectName: 'single-spa',
@@ -38,35 +38,35 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentación',
           items: [
             {
               label: 'FAQ',
               to: 'docs/faq/',
             },
             {
-              label: 'Getting Started',
+              label: 'Empezando con single-spa',
               to: 'docs/getting-started-overview/',
             },
             {
-              label: 'API Reference',
+              label: 'API de Referencia',
               to: 'docs/api/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidad',
           items: [
             {
-              label: 'User Showcase',
+              label: 'Exhibición de usuarios',
               to: 'users/',
             },
             {
-              label: 'Contributors',
+              label: 'Contribuciones',
               to: 'contributors/',
             },
             {
-              label: 'Chat in Slack',
+              label: 'Chatea en Slack',
               href:
                 'https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ',
             },
@@ -77,14 +77,14 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Más',
           items: [
             {
               label: 'GitHub',
               href: libRepoUrl,
             },
             {
-              label: 'Donate',
+              label: 'Donar',
               href: 'https://opencollective.com/single-spa',
             },
             {
@@ -114,12 +114,12 @@ module.exports = {
           },
         },
         { to: 'docs/faq/', label: 'FAQ' },
-        { to: 'docs/', label: 'Docs' },
-        { to: 'help/', label: 'Help' },
+        { to: 'docs/', label: 'Documentación' },
+        { to: 'help/', label: 'Ayuda' },
         { to: 'blog/', label: 'Blog' },
-        { href: 'https://opencollective.com/single-spa', label: 'Donate' },
+        { href: 'https://opencollective.com/single-spa', label: 'Donar' },
         { href: 'https://github.com/single-spa/single-spa', label: 'GitHub' },
-        { to: 'languages', label: '简Жहि Languages'},
+        { to: 'languages', label: '简Жहि Idiomas'},
       ],
     },
     googleAnalytics: {

@@ -96,7 +96,7 @@ function Footer() {
             />
           )}
           <div>
-            Originally developed at <a href='https://getcanopy.com'>Canopy</a>
+            Desarrollado originalmente en <a href='https://getcanopy.com'>Canopy</a>
           </div>
           {copyright && copyright}
         </div>
