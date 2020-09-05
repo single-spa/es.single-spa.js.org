@@ -28,7 +28,7 @@ export default function Languages() {
           ))}
         </div>
         <div style={{display: 'flex', justifyContent: 'center'}}>
-          Don't see your language above?<a href="https://github.com/single-spa/single-spa.js.org/issues/new" style={{marginLeft: '.3rem'}}>Let us know</a>.
+          ¿No ves tu idioma arriba?<a href="https://github.com/single-spa/single-spa.js.org/issues/new" style={{marginLeft: '.3rem'}}>Dejános saber</a>.
         </div>
       </div>
     </Layout>

@@ -29,23 +29,23 @@ export const Showcase = ({ showAll }) => {
         className={classnames('showcaseHeading', {
           [styles.showcaseHeadingColored]: !showAll,
         })}>
-        Who&apos;s Using This?
+        ¿Quién lo está usando?
       </h2>
-      <p>This project is used by all these organizations</p>
+      <p>Este proyecto es utilizado por todas estas organizaciones</p>
       <div className={styles.showcaseLogos}>{showcase}</div>
       {showAll ? (
         <>
-          <p>Are you using this project?</p>
+          <p>¿Estás usando este proyecto?</p>
           <a
             href={`${siteConfig.customFields.repoUrl}/edit/master/website/src/data/users.js`}
             className="button">
-            Add your company
+            Agrega tu empresa.
           </a>
         </>
       ) : (
         <div className="more-users">
           <a className="button" href={useBaseUrl('users')}>
-            More {siteConfig.title} Users
+            Más usuarios de {siteConfig.title}
           </a>
         </div>
       )}

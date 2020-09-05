@@ -19,22 +19,22 @@ function Version() {
       permalink="/versions"
       description="single-spa Versions page listing all documented site versions">
       <div className="container margin-vert--xl">
-        <h1>single-spa documentation versions</h1>
+        <h1>Documentación de versiones single-spa</h1>
         <div className="margin-bottom--lg">
-          <h3 id="latest">Latest version (Stable)</h3>
-          <p>Here you can find the latest documentation.</p>
+          <h3 id="latest">Última version (Estable)</h3>
+          <p>Aquí puedes encontrar la última documentación.</p>
           <table>
             <tbody>
               <tr>
                 <th>{latestVersion}</th>
                 <td>
                   <Link to={useBaseUrl('/docs/getting-started-overview')}>
-                    Documentation
+                    Documentación
                   </Link>
                 </td>
                 <td>
                   <a href={`${repoUrl}/releases`}>
-                    Release Notes
+                    Notas de publicación
                   </a>
                 </td>
               </tr>
@@ -43,9 +43,9 @@ function Version() {
         </div>
         {pastVersions.length > 0 && (
           <div className="margin-bottom--lg">
-            <h3 id="archive">Past Versions</h3>
+            <h3 id="archive">Versiones pasadas</h3>
             <p>
-              Here you can find documentation for previous versions of single-spa.
+              Aquí puedes encontrar la documentación de versiones previas de single-spa.
             </p>
             <table>
               <tbody>
@@ -54,12 +54,12 @@ function Version() {
                     <th>{version}</th>
                     <td>
                       <Link to={useBaseUrl(`/docs/${version}/getting-started-overview`)}>
-                        Documentation
+                        Documentación
                       </Link>
                     </td>
                     <td>
                       <a href={`${repoUrl}/releases`}>
-                        Release Notes
+                        Notas de publicación
                       </a>
                     </td>
                   </tr>

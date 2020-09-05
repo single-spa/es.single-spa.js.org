@@ -5,21 +5,20 @@ import classnames from 'classnames';
 
 const data = [
   {
-    content:
-      'Use multiple frameworks in a single-page application, allowing you to split code by functionality and have Angular, React, Vue.js, etc. apps all living in harmony.',
+    content: 'Usa múltiples frameworks en una aplicación single-spa, permitiendote dividir el código por funcionalidad y tener aplicaciones Angular, React, Vue.js, etc, todas conviviendo en armonía.',
     imageUrl: 'img/icons/148705-essential-collection/svg/paper-plane.svg',
-    title: 'Framework freedom',
+    title: 'Libertad de Framework',
   },
   {
-    content: `Stand up new apps next to the old one. You write the applications, single-spa makes them work together and won't load them until they're needed.`,
+    content: `Levanta nuevas aplicaciones web junto a las existentes. Tu escribes las aplicaciones, single-spa hace que ellas trabajen juntas y no las cargarás hasta que sean necesarias.`,
     imageUrl: 'img/icons/148705-essential-collection/svg/download.svg',
-    title: 'Lazy load applications',
+    title: 'Aplicaciones con carga diferida',
   },
   {
     content:
-      'Combine many small apps, empowering teams to choose their technology. Stay nimble as your team, product, and tech stack grows and changes over time.',
+      'Combina muchas aplicaciones pequeñas, empoderando a los equipos a escoger su tecnología. Mantente ágil a medida que tu equipo, producto y tecnología cambian con el tiempo.',
     imageUrl: 'img/icons/148705-essential-collection/svg/settings-1.svg',
-    title: 'Front-end microservices',
+    title: 'Microservicios Front-end',
   },
 ];
 

@@ -1,7 +1,7 @@
 ---
 id: getting-started-overview
 title: Empezando con single-spa
-sidebar_label: Overview of single-spa
+sidebar_label: Descripción general de single-spa
 ---
 
 ## JavaScript Microfrontends
@@ -147,7 +147,7 @@ export function unmount(props) {
 
 Lee más en el [API de single-spa](api.md) y el [API de aplicaciones](building-applications.md#application-lifecycle).
 
-## Contributing
+## Contribuir
 
 El objetivo principal de este repositorio es seguir evolucionando single-spa, haciéndolo mejor y más fácil de usar. El desarrollo de single-spa y el [ecosistema de single-spa](ecosystem.md) ocurren como código abierto en GitHub, y estamos agradecidos con la comunidad por contribuir con correcciones de errores y mejoras. Lea a continuación para saber cómo puede participar en la mejora de single-spa.
 
