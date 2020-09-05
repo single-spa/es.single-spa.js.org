@@ -39,7 +39,7 @@ Las aplicaciones de single-spa consisten en:
 
 El equipo principal de single-spa ha reunido la documentación, herramientas, y videos que muestran las mejores prácticas recomendadas con single-spa. Revisa [esta documentación](/docs/recommended-setup/) para más información.
 
-## ¿Qué tan díficil será usar single-spa?
+## ¿Qué tan difícil es usar single-spa?
 
 single-spa funciona con ES5, ES6 +, TypeScript, Webpack, SystemJS, Gulp, Grunt, Bower, ember-cli o cualquier sistema de compilación disponible. Puedes instalarlo con `npm` o incluso usar una etiqueta `<script>` si lo prefieres.
 
