@@ -1,13 +1,11 @@
 ---
 id: single-spa-playground
-title: single-spa-playground
-sidebar_label: Playground
+title: Juega con single-spa
+sidebar_label: Juega con single-spa
 ---
 
-# Single-spa Playground
+[Juega con single-spa](http://single-spa-playground.org)
 
-[Playground website](http://single-spa-playground.org)
+[Proyecto de Github](https://github.com/single-spa/single-spa-playground)
 
-[Github project](https://github.com/single-spa/single-spa-playground)
-
-The single-spa playground is an interactive tutorial that lets you test your code live in the browser to verify it can work with single-spa.
+Juega con single-spa, es un tutorial interactivo que te permite probar tu código en vivo en el navegador, para verificar que puede funcionar con single-spa.

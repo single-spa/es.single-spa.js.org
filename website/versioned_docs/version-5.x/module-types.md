@@ -1,7 +1,7 @@
 ---
 id: module-types
-title: single-spa Microfrontend Types
-sidebar_label: Microfrontend Types
+title: Tipos de Microfrontend de single-spa
+sidebar_label: Tipos de Microfrontend
 ---
 
 # Concept: single-spa Microfrontend Types
