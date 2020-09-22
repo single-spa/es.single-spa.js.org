@@ -36,16 +36,16 @@ En el contexto de single-spa, hay tres tipos de microfrontends:
 2. [paquetes single-spa](/docs/parcels-overview): Microfrontends que renderizan componentes sin controlar rutas.
 3. [módulos de utilidad](/docs/recommended-setup#utility-modules-styleguide-api-etc): Microfrontends que epoxrtan logica JavaScript compartida sin renderizar componentes.
 
-Una aplicación web puede incluir uno o más tipos de micro-extensiones. Mira [an in-depth comparison](/docs/module-types) and our recommendations for [choosing between microfrontend types](/docs/recommended-setup#applications-versus-parcels-versus-utility-modules). 
+Una aplicación web puede incluir uno o más tipos de micro-extensiones. Mira [una comparación en profundidad](/docs/module-types) y nuestras recomendaciones para [elegir entre los tipos de microfrontends](/docs/recommended-setup#applications-versus-parcels-versus-utility-modules). 
 
 ## Comunicación entre Microfrontends
 
-`import { thing } from 'other-microfrontend'` is the preferred way to communicate between microfrontends. [Here is some documentation](/docs/recommended-setup#inter-app-communication) that goes over this in more detail.
+`import { thing } from 'other-microfrontend'` es la forma preferida de comunicarse entre microfrontends. [Aquí hay más documentación](/docs/recommended-setup#inter-app-communication) que trata esto con más detalle.
 
 ## Relación con single-spa
 
-single-spa is a small, 5kb (gzipped) npm package that orchestrates the mounting and unmounting of your microfrontends. It knows when to mount the applications based on [activity functions](/docs/api/#registerapplication) and can do so in a framework agnostic way with the help of small [adapter libraries](/docs/ecosystem).
+single-spa es un pequeño paquete de 5kb (gzipped) que orquesta el montaje y desmontaje de tus microfrontends. Sabe cuando montar la aplicación basandose en [funciones de actividad](/docs/api/#registerapplication) y puede hacerlo de una forma agnostica al framework con la ayuda de pequeñas [librerias adaptadoras](/docs/ecosystem).
 
 ## Rendimiento
 
-Microfrontends are often more performant than the monoliths from which they originate. This is due to built-in lazy loading (via [loading functions](/docs/api/#registerapplication)) and other performance-related best practices. Your monolith likely has "skeletons in its closet" - microfrontends gives you a migration path that will expose and resolve the problems caused by those skeletons. One important performance consideration is to share a single instance of large libraries (such as React, Vue, or Angular), which is highly encouraged. To do so, see our [recommended setup](/docs/recommended-setup#shared-dependencies).
+Los Microfrontends suelen ser más eficientes que los monolitos de los que se originan. Esto se debe a la carga diferida (a través de [funciones de carga](/docs/api/#registerapplication)) y otras mejoras prácticas relacionadas con el rendimiento. Tu monolito probablemente tiene "estructuras en su closet" - Los microfrontends te brindan una ruta de migración que expondrán y resolverán los problemas causados por esas estructuras. Una consideración importante sobre el rendimiento es compartir una sola instancia de grandes librerías (como React, Vue, or Angular), lo cuál es muy recomendable. Para hacerlo, mira nuestra [configuración recomendada](/docs/recommended-setup#shared-dependencies).
