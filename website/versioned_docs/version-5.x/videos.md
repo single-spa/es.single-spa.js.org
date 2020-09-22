@@ -1,19 +1,19 @@
 ---
 id: videos
-title: Video Tutorials
+title: Video tutoriales
 sidebar_label: Videos
 ---
 
-# Video Tutorials
+# Video Tutoriales
 
-A variety of video tutorials exist from both the single-spa core team and other community members.
+Existe una variedad de tutoriales en video, tanto del equipo central de single-spa como de otros miembros de la comunidad.
 
-## From the Core Team
+## Desde el Equipo Central
 
 [Youtube Playlist](https://www.youtube.com/playlist?list=PLLUD8RtHvsAOhtHnyGx57EYXoaNsxGrTU) / [Bilibili](https://space.bilibili.com/495254378)
 
-## From the Community
+## Desde la comunidad
 
-Feel free to add your tutorial videos to this list!
+¡No dudes en agregar tus video tutoriales a esta lista!
 
 - [Module Federation and single-spa](https://www.youtube.com/watch?v=wxnwPLLIJCY)
