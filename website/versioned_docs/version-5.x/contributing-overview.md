@@ -8,7 +8,7 @@ sidebar_label: Visión General
 
 Gracias por probar single-spa! Nos entusiasma escuchar y aprender de ti.
 
-Hemos reunido las siguientes guias para ayudarte a conocer en donde puedes ser de mayor apoyo.
+Hemos reunido las siguientes guías para ayudarte a conocer en donde puedes ser de mayor apoyo.
 
 ## Tabla de contenidos
 
@@ -46,8 +46,8 @@ Si te interesa contribuir, empieza indagando el listado de [issues](https://gith
 
 Si no ves la idea listada, y consideras que encaja en los objetivos de esta guía, haz lo siguiente
 
-* **Si tu colaboración es menor,** tal cómo un error pequeño de tipografía o la solución de un error, abre un pull request.
-* **Si tu contribución es mayor,** tal cómo una nueva funcionalidad, Empieza creando un 'issue'. De esta manera, otros podrán  participar en la discusión y opinar antes de que realices cualquier trabajo.
+* **Si tu colaboración es menor,** tal como un error pequeño de tipografía o la solución de un error, abre un pull request.
+* **Si tu contribución es mayor,** tal como una nueva funcionalidad, Empieza creando un 'issue'. De esta manera, otros podrán  participar en la discusión y opinar antes de que realices cualquier trabajo.
 
 ## Configurando tu entorno
 
