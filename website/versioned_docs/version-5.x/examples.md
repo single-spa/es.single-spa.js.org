@@ -8,18 +8,11 @@ sidebar_label: Recursos
 
 ### Activamente mantenidos
 
-<<<<<<< HEAD
 - [React Microfrontends](https://github.com/react-microfrontends) (Revisa primero el repositorio root-config)
 - [Vue Microfrontends](https://github.com/vue-microfrontends) (Revisa primero el repositorio root-config)
 - [Polyglot Microfrontends](https://github.com/polyglot-microfrontends) (Revisa primero el repositorio root-config)
 - [single-spa-es5-angularjs](https://github.com/joeldenning/single-spa-es5-angularjs) Es un ejemplo de es5 muy pequeñito con angularjs.
-=======
-- [React Microfrontends](https://github.com/react-microfrontends) (check out root-config repo first)
-- [Vue Microfrontends](https://github.com/vue-microfrontends) (check out root-config repo first)
-- [Polyglot Microfrontends](https://github.com/polyglot-microfrontends) (check out root-config repo first)
-- [single-spa-es5-angularjs](https://github.com/joeldenning/single-spa-es5-angularjs) is a very tiny es5 example with angularjs.
-- [Isomorphic Microfrontends](https://github.com/isomorphic-microfrontends) shows server-side rendering (SSR) with single-spa and single-spa-layout.
->>>>>>> e0dd016514c282ea5ba5b032fe360b3c602e0d4a
+- [Isomorphic Microfrontends](https://github.com/isomorphic-microfrontends) muestra varios ejemplos usando renderizado en el servidor (SSR) con single-spa y single-spa-layout.
 
 ### Ejemplos más antiguos
 
