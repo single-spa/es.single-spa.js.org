@@ -18,6 +18,10 @@ A primary purpose of server-side rendering is improved performance. Server rende
 
 Server rendered applications are generally harder to build and maintain, since the code has to work on both client and server. Additionally, SSR often complicates the infrastructure needed to run your application, since many SPA + SSR solutions require NodeJS, which is not required in production for client-only SPAs.
 
+## Example
+
+The [isomorphic-microfrontends example](https://github.com/isomorphic-microfrontends) shows React server-rendered microfrontends. You can view the live demo of the code at https://isomorphic.microfrontends.app.
+
 ## Implementation Overview
 
 The ultimate goal of server-side rendering is to generate an HTTP response that the browser will display to the user while javascript is hydrating. Most microfrontend server-side rendering implementations, including single-spa's recommended approach, do this with the following steps:
@@ -112,8 +116,7 @@ In the context of single-spa-layout, this is done inside of the `renderApplicati
 ```js
 import {
   constructServerLayout,
-  setResponseHeaders,
-  renderServerResponseBody,
+  sendLayoutHTTPResponse
 } from "single-spa-layout/server";
 import http from 'http';
 
@@ -122,7 +125,7 @@ const serverLayout = constructServerLayout({
 });
 
 http.createServer((req, res) => {
-  const { bodyStream } = renderServerResponseBody({
+  const { bodyStream } = sendLayoutHTTPResponse({
     res,
     serverLayout,
     urlPath: req.path,
@@ -192,8 +195,7 @@ In the context of single-spa-layout, this is done with the `renderApplication` f
 ```js
 import {
   constructServerLayout,
-  setResponseHeaders,
-  renderServerResponseBody,
+  sendLayoutHTTPResponse,
 } from "single-spa-layout/server";
 import http from 'http';
 import fetch from 'node-fetch';
@@ -205,7 +207,7 @@ const serverLayout = constructServerLayout({
 http.createServer((req, res) => {
   const fetchPromises = {}
 
-  renderServerResponseBody(serverLayout, {
+  sendLayoutHTTPResponse(serverLayout, {
     res,
     serverLayout,
     urlPath: req.path,
@@ -259,8 +261,7 @@ Tailor and TailorX have built-in methods of merging headers. Single-spa-layout a
 ```js
 import {
   constructServerLayout,
-  setResponseHeaders,
-  renderServerResponseBody,
+  sendLayoutHTTPResponse
 } from "single-spa-layout/server";
 import http from 'http';
 
@@ -269,7 +270,7 @@ const serverLayout = constructServerLayout({
 });
 
 http.createServer((req, res) => {
-  const { bodyStream } = renderServerResponseBody({
+  const { bodyStream } = sendLayoutHTTPResponse({
     res,
     serverLayout,
     urlPath: req.path,

@@ -6,9 +6,9 @@ sidebar_label: Vue
 
 single-spa-vue is a helper library that helps implement [single-spa registered application](configuration#registering-applications) [lifecycle functions](building-applications.md#registered-application-lifecycle) (bootstrap, mount and unmount) for use with [Vue.js](https://vuejs.org/). Check out the [single-spa-vue github](https://github.com/single-spa/single-spa-vue).
 
-## Starter repo
+## Example
 
-For a full example, see [coexisting-vue-microfrontends](https://github.com/joeldenning/coexisting-vue-microfrontends).
+For a full example, see [vue-microfrontends](https://github.com/vue-microfrontends).
 
 ## Live demo
 
@@ -110,13 +110,11 @@ const vueLifecycles = singleSpaVue({
   appOptions: {
     render() {
       return h(App, {
-        props: {
-          // single-spa props are available on the "this" object. Forward them to your component as needed.
-          // https://single-spa.js.org/docs/building-applications#lifecyle-props
-          name: this.name,
-          mountParcel: this.mountParcel,
-          singleSpa: this.singleSpa,
-        },
+        // single-spa props are available on the "this" object. Forward them to your component as needed.
+        // https://single-spa.js.org/docs/building-applications#lifecyle-props
+        name: this.name,
+        mountParcel: this.mountParcel,
+        singleSpa: this.singleSpa,
       });
     },
   },
@@ -141,10 +139,8 @@ const vueLifecycles = singleSpaVue({
   appOptions: {
     render(h) {
       return h(App, {
-        props: {
-          mountParcel: this.mountParcel,
-          otherProp: this.otherProp,
-        },
+        mountParcel: this.mountParcel,
+        otherProp: this.otherProp,
       });
     },
     router,
