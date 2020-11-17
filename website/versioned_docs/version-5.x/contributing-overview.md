@@ -83,6 +83,10 @@ Si no ves la idea listada, y consideras que encaja en los objetivos de esta guí
 
 ## Comunidad
 
+<<<<<<< HEAD
 Las discusiones sobre single-spa tienen lugar en las secciones [Issues](https://github.com/single-spa/single-spa/issues) y [Pull Requests](https://github.com/single-spa/single-spa/pulls) del repositorio de single-spa. Cualquiera es bienvenido a unirse a estas conversaciones. También existe una [comunidad de slack](https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ) para actualizaciones regulares.
+=======
+Discussions about single-spa take place on the single-spa repository's [Issues](https://github.com/single-spa/single-spa/issues) and [Pull Requests](https://github.com/single-spa/single-spa/pulls) sections. Anybody is welcome to join these conversations. There is also a [slack community](https://join.slack.com/t/single-spa/shared_invite/zt-j4c38g92-JmV7O~35dkN1CnaBkK7NTw) for regular updates.
+>>>>>>> 931547fda02c82aa9d2f58d0626149c794917242
 
 Siempre que sea posible, no lleves estas conversaciones a canales privados, inclusive contactar a los administradores directamente. Mantener las conversaciones públicas significa que otros se podrán beneficiar y aprender de las mismas.

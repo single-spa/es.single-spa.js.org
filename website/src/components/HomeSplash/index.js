@@ -25,8 +25,13 @@ export const HomeSplash = () => {
             Mira un ejemplo en vivo
           </Link>
 
+<<<<<<< HEAD
           <Link className="button" to="https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ">
             Únete al Chat de Slack
+=======
+          <Link className="button" to="https://join.slack.com/t/single-spa/shared_invite/zt-j4c38g92-JmV7O~35dkN1CnaBkK7NTw">
+            Join Slack Chat
+>>>>>>> 931547fda02c82aa9d2f58d0626149c794917242
           </Link>
         </div>
       </div>
