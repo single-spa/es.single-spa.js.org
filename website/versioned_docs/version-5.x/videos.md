@@ -4,9 +4,13 @@ title: Video tutoriales
 sidebar_label: Videos
 ---
 
+<<<<<<< HEAD
 # Video Tutoriales
 
 Existe una variedad de tutoriales en video, tanto del equipo central de single-spa como de otros miembros de la comunidad.
+=======
+A variety of video tutorials exist from both the single-spa core team and other community members.
+>>>>>>> be078b0c91c6f36025e026f974dd5b88e003ab2a
 
 ## Desde el Equipo Central
 
