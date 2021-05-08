@@ -68,7 +68,7 @@ module.exports = {
             {
               label: 'Chatea en Slack',
               href:
-                'https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ',
+                'https://join.slack.com/t/single-spa/shared_invite/zt-mafdeybq-0v1aIm3KKaqyVCT2xeny3Q',
             },
             {
               label: 'Twitter',
@@ -102,7 +102,7 @@ module.exports = {
         alt: 'single-spa Logo',
         src: 'img/logo-white-bgblue.svg',
       },
-      links: [
+      items: [
         {
           to: 'versions',
           label: versions[0],
@@ -119,7 +119,11 @@ module.exports = {
         { to: 'blog/', label: 'Blog' },
         { href: 'https://opencollective.com/single-spa', label: 'Donar' },
         { href: 'https://github.com/single-spa/single-spa', label: 'GitHub' },
+<<<<<<< HEAD
         { to: 'languages', label: '简Жहि Idiomas'},
+=======
+        { to: 'languages', label: '简Жहि Languages' },
+>>>>>>> 9012a08f47e9cac901a3cbb8eee85dc62949d69f
       ],
     },
     googleAnalytics: {
