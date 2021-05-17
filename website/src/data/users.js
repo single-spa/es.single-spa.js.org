@@ -88,6 +88,24 @@ const users = [
     image: 'img/apg-ecommerce-solutions-logo.png',
     infoLink: 'https://www.apgecommerce.com/',
     pinned: true
+  },
+  {
+    caption: 'Zup I.T.',
+    image: 'img/zup-logo.png',
+    infoLink: 'https://www.zup.com.br/en/',
+    pinned: true
+  },
+  {
+    caption: 'Sinbad ',
+    image: 'https://sinbad.co.id/images/sinbad.svg',
+    infoLink: 'https://sinbad.co.id/',
+    pinned: false
+  },
+  {
+    caption: 'Metigy ',
+    image: '//d12ug919f4lfza.cloudfront.net/metigy-logo-square-orange.svg',
+    infoLink: 'https://metigy.com/',
+    pinned: false
   }
 ];
 
