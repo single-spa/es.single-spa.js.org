@@ -6,11 +6,16 @@ const versions = require('./versions.json');
 
 module.exports = {
   title: 'single-spa',
+<<<<<<< HEAD
   tagline: 'Un router de JavaScript para microservicios front-end',
   url: 'https://single-spa.github.io/es.single-spa.js.org',
+=======
+  tagline: 'A javascript router for front-end microservices',
+  url: 'https://single-spa.js.org',
+>>>>>>> 92f095b0abf85c27fec1c664f57d3450296baa47
   baseUrl: '/',
   projectName: 'single-spa',
-  favicon: 'img/logo-blue-favicon.ico',
+  favicon: 'img/single-spa-mark-magenta.svg',
   organizationName: 'single-spa',
   customFields: {
     repoUrl,
@@ -32,13 +37,30 @@ module.exports = {
     footer: {
       logo: {
         alt: 'single-spa',
-        src: 'img/logo-white-bgblue.svg',
+        src: 'img/single-spa-logo-magenta.svg',
       },
       copyright: `Copyright © ${new Date().getFullYear()} single-spa.`,
       style: 'dark',
       links: [
         {
+<<<<<<< HEAD
           title: 'Documentación',
+=======
+          title: "Courses",
+          items: [
+            {
+              label: "Single-Spa Workshop",
+              to: "https://single-spa-workshop.com"
+            },
+            {
+              label: "Microfrontend Fundamentals",
+              to: "https://single-spa-workshop.com"
+            },
+          ]
+        },
+        {
+          title: 'Docs',
+>>>>>>> 92f095b0abf85c27fec1c664f57d3450296baa47
           items: [
             {
               label: 'FAQ',
@@ -58,7 +80,15 @@ module.exports = {
           title: 'Comunidad',
           items: [
             {
+<<<<<<< HEAD
               label: 'Exhibición de usuarios',
+=======
+              label: 'Sponsors',
+              to: 'sponsors/',
+            },
+            {
+              label: 'User Showcase',
+>>>>>>> 92f095b0abf85c27fec1c664f57d3450296baa47
               to: 'users/',
             },
             {
@@ -68,7 +98,7 @@ module.exports = {
             {
               label: 'Chatea en Slack',
               href:
-                'https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ',
+                'https://join.slack.com/t/single-spa/shared_invite/zt-mafdeybq-0v1aIm3KKaqyVCT2xeny3Q',
             },
             {
               label: 'Twitter',
@@ -100,9 +130,9 @@ module.exports = {
       title: 'single-spa',
       logo: {
         alt: 'single-spa Logo',
-        src: 'img/logo-white-bgblue.svg',
+        src: 'img/single-spa-mark-magenta.svg',
       },
-      links: [
+      items: [
         {
           to: 'versions',
           label: versions[0],
@@ -114,12 +144,22 @@ module.exports = {
           },
         },
         { to: 'docs/faq/', label: 'FAQ' },
+<<<<<<< HEAD
         { to: 'docs/', label: 'Documentación' },
         { to: 'help/', label: 'Ayuda' },
+=======
+        { to: 'docs/', label: 'Docs' },
+        { to: 'https://single-spa-workshop.com', label: 'Courses' },
+        { to: 'help/', label: 'Help' },
+>>>>>>> 92f095b0abf85c27fec1c664f57d3450296baa47
         { to: 'blog/', label: 'Blog' },
         { href: 'https://opencollective.com/single-spa', label: 'Donar' },
         { href: 'https://github.com/single-spa/single-spa', label: 'GitHub' },
+<<<<<<< HEAD
         { to: 'languages', label: '简Жहि Idiomas'},
+=======
+        { to: 'languages', label: '简Жहि Languages' },
+>>>>>>> 92f095b0abf85c27fec1c664f57d3450296baa47
       ],
     },
     googleAnalytics: {
