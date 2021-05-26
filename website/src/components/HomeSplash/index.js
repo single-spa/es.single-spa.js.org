@@ -21,12 +21,25 @@ export const HomeSplash = () => {
             Empieza a usarlo
           </Link>
 
+<<<<<<< HEAD
           <Link className="button" to="https://vue.microfrontends.app/rate-doggos">
             Mira un ejemplo en vivo
           </Link>
 
           <Link className="button" to="https://join.slack.com/t/single-spa/shared_invite/enQtODAwNTIyMzc4OTE1LWUxMTUwY2M1MTY0ZGMzOTUzMGNkMzI1NzRiYzYwOWM1MTEzZDM1NDAyNWM3ZmViOTAzZThkMDcwMWZmNTFmMWQ">
             Únete al Chat de Slack
+=======
+          <Link
+            className="button"
+            to="https://single-spa-workshop.com">
+            Official Courses
+          </Link>
+
+          <Link
+            className="button"
+            to="https://join.slack.com/t/single-spa/shared_invite/zt-mafdeybq-0v1aIm3KKaqyVCT2xeny3Q">
+            Join Slack Chat
+>>>>>>> 20ec216cf6c40385be1af81b6b68b3d02694f3fd
           </Link>
         </div>
       </div>
